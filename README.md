@@ -4,7 +4,10 @@ This code is related to our recently proposed method called CHGcut. This method 
 This program is suitable for MATLAB R2013a and above versions. The program has adopted by Geraci's dataset. By some little change it can be used for any input data.
 
 # Running the method
-Please call HGHapCut_mec_RAX
+Please call with this order:
+1) HGHapCut_mec_RAX
+2) newConfidRahman
+3) callFillGapsDiploid
 
 The obtained results which includes the reconstruction rate and running time will be saved in some text files on the current path.
 
