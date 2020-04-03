@@ -8,7 +8,7 @@ Please call the functions with this order:
 1) HGHapCut_mec_RAX
 2) newConfidRahman
 3) callFillGapsDiploid
-The first function can be called in two forms:
+# The first function can be called in two forms:
 1) Without any input arguments
 In this form, The function will be executed on the Geraci's dataset as defualt. In addition, the obtained results including the reconstruction rate(RR),running time and the output haplotypes will be saved in some text files on the current path.
 2) Call with input arguments
