@@ -18,7 +18,9 @@ In this form, The function will be executed on the Geraci's dataset as defualt. 
 2) Call with input arguments
 
 In this case, the user can run the program for a specified matrix fragments. The call function template is as follow:
+
 HGHapCut_mec_RAX('Sim0','TargetHaps')
+
 Which 'Sim0' is a filename contaning the matrix fragment and 'TargetHaps' is a file which involves the target haplotypes.
 It should be noted that their formats must be comaptible with Geraci's benchmark (Please see Sim0 and TargetHaps files).
 
