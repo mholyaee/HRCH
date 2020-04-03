@@ -24,7 +24,14 @@ HGHapCut_mec_RAX('Sim0','TargetHaps')
 Which 'Sim0' is a filename contaning the matrix fragment and 'TargetHaps' is a file which involves the target haplotypes.
 It should be noted that their formats must be comaptible with Geraci's benchmark (Please see Sim0 and TargetHaps files).
 
-The details of used dataset can be accessible in the below paper:
+By calling the second function i.e. 'newConfidRahman', the obtained haplotypes are compared with the corresponding fragment matrix and for each loci, a confidence measure is computed.
+
+Finally, by calling 'CallFillGapsDiploid' function, for each loci of the resulted haplotypes which its confidence is lower than a predefined treshold, its measure is rectified based on chaos game representation.
+
+It should be noted that this function is called without any input argument; the output haplotypes as well as its confidence measure which were loaded from seperate files, are used to improve the locis with low confidences.
+
+
+The details of the used dataset can be accessible in the below paper:
 
 F. Geraci, "A comparison of several algorithms for the single individual SNP haplotyping reconstruction problem," Bioinformatics, vol. 26, pp. 2217-2225, 2010.
 
