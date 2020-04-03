@@ -1,5 +1,5 @@
-# CHGcut
-This code is related to our recently proposed method called CHGcut. This method can solve single individual haplotype problem for the both diploid and polyploid organisms
+# HRCH
+This code is related to our recently proposed method called HRCH. This method can solve single individual haplotype problem for the both diploid and polyploid organisms
 # Requirement:
 This program is suitable for MATLAB R2013a and above versions. The program has adopted by Geraci's dataset. By some little change it can be used for any input data.
 
