@@ -9,7 +9,7 @@ Please call the functions with this order:
 2) newConfidRahman
 3) callFillGapsDiploid
 
-The first function can be called in two forms:
+# The first function can be called in two forms:
 
 1) Without any input arguments
 
