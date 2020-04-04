@@ -35,7 +35,7 @@ The details of the used dataset can be accessible in the below paper:
 
 F. Geraci, "A comparison of several algorithms for the single individual SNP haplotyping reconstruction problem," Bioinformatics, vol. 26, pp. 2217-2225, 2010.
 
-##Feedback
+#Feedback
 
 Please do not hesitate to contact us if there is anything we may be able to help you with.
 
