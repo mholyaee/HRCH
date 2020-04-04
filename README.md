@@ -1,9 +1,9 @@
 # HRCH
 This code is related to our recently proposed method called HRCH. This method can solve single individual haplotype problem for the both diploid and polyploid organisms
-# Requirement:
+## Requirement:
 This program is suitable for MATLAB R2013a and above versions. The program has adopted by Geraci's dataset. By some little change it can be used for any input data.
 
-# Running the method
+## Running the method
 Please call the functions with this order:
 1) HGHapCut_mec_RAX
 2) newConfidRahman
@@ -11,11 +11,11 @@ Please call the functions with this order:
 
 ## The first function can be called in two forms:
 
-1) Without any input arguments
+### 1) Without any input arguments
 
 In this form, The function will be executed on the Geraci's dataset as defualt. In addition, the obtained results including the reconstruction rate(RR),running time and the output haplotypes will be saved in some text files on the current path.
 
-2) Call with input arguments
+### 2) Call with input arguments
 
 In this case, the user can run the program for a specified matrix fragments. The call function template is as follow:
 
