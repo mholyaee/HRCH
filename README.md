@@ -31,7 +31,7 @@ Finally, by calling 'CallFillGapsDiploid' function, for each loci of the resulte
 It should be noted that this function is called without any input argument; the output haplotypes as well as its confidence measure which were loaded from seperate files, are used to improve the locis with low confidences.
 
 
-The details of the used dataset can be accessible in the below paper:
+### The details of the used dataset can be accessible in the below paper:
 
 F. Geraci, "A comparison of several algorithms for the single individual SNP haplotyping reconstruction problem," Bioinformatics, vol. 26, pp. 2217-2225, 2010.
 
