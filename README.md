@@ -1,7 +1,12 @@
 # HRCH
 This code is related to our recently proposed method called HRCH. This method can solve single individual haplotype problem for the both diploid and polyploid organisms
 ## Requirement:
-This program is suitable for MATLAB R2013a and above versions. The program has adopted by Geraci's dataset. By some little change it can be used for any input data.
+1) This program is suitable for MATLAB R2013a and above versions. The program has adopted by Geraci's dataset. By some little change it can be used for any input data.
+2) Please download the software fpgrowth.exe from the below link; it can mine frequent item sets.
+http://www.borgelt.net/fpgrowth.html 
+3) Please download the software hmetis.exe. It was used for partitioning hypergraphs: http://glaros.dtc.umn.edu/gkhome/metis/hmetis/download
+We used hmetis-1.5.3-WIN32.zip.
+Finally, please save them in the same folder with this program, and modify the file path in the program.
 
 ## Running the method
 Please call the functions with this order:
