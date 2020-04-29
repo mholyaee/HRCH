@@ -5,7 +5,8 @@ This code is related to our recently proposed method called HRCH. This method ca
 2) Please download the software fpgrowth.exe from the below link; it can mine frequent item sets.
 http://www.borgelt.net/fpgrowth.html 
 3) Please download the software hmetis.exe. It was used for partitioning hypergraphs: http://glaros.dtc.umn.edu/gkhome/metis/hmetis/download
-We used hmetis-1.5.3-WIN32.zip.
+
+ We used hmetis-1.5.3-WIN32.zip.
 
 Finally, please save them in the same folder with this program, and modify the file path in the program.
 
