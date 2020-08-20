@@ -31,7 +31,7 @@ HGHapCut_mec_RAX('Sim0','TargetHaps')
 Which 'Sim0' is a filename contaning the matrix fragment and 'TargetHaps' is a file which involves the target haplotypes.
 It should be noted that their formats must be comaptible with Geraci's benchmark (Please see Sim0 and TargetHaps files).
 
-The next functions are related to the second phase. The input file should include haplotpes with long length. By calling the second function i.e. 'newConfidRahman', the obtained haplotypes are compared with the corresponding fragment matrix and for each loci, a confidence measure is computed.
+The next functions are related to the second phase. The input file should include haplotpes with long lengths. By calling the second function i.e. 'newConfidRahman', the obtained haplotypes are compared with the corresponding fragment matrix and for each loci, a confidence measure is computed.
 
 Finally, by calling 'CallFillGapsDiploid' function, for each loci of the resulted haplotypes which its confidence is lower than a predefined treshold, its measure is rectified based on chaos game representation.
 
